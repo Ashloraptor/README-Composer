@@ -1,20 +1,32 @@
-const inquirer = require('inquirer');
+const inquirer = require('./package.json');
 const fs = require('fs');
 
 const generateREADME = ({title, description, tableOfContents, installation, usage, license, contributing, tests, questions}) =>
-//README content with "cash-money" blanks
-// `${title}`
-// `${description}`
-// `${tableOfContents}`
-// `${installation}`
-// `${usage}`
-// `${license}`
-// `${contributing}`
-// `${tests}`
-// `${questions}`
+//README content with "cash-money" blanks, html style(?)
+`<h1>${title}</h1>
+<p>${description}</p>
+<h2>Table of Contents</h2>
+<a href="#installation">Installation</a>
+<a href="#usage">Usage Instruction</a>
+<a href="#license">License</h2>
+<a href="#contributing">Contributing</a>
+<a href="#tests">Tests</a>
+<a href="#questions">Questions</a>
+<h2 id="installation">Installation</h2>
+<p>${installation}</p>
+<h2 id="usage">Usage Instruction</h2>
+<p>${usage}</p>
+<h2 id="license"></h2>
+<p>${license}</p>//was this supposed to be a badge?
+<h2 id="contributing"></h2>
+<p>${contributing}</p>
+<h2 id="tests">Tests</h2>
+<p>${tests}</p>
+<h2 id="questions">Questions</h2>
+<p>${questions}</p>`;
 
 inquirer
-.createPromptModule([
+.prompt([
     {
         type: 'input',
         name: 'title',
@@ -26,7 +38,7 @@ inquirer
         message:'What does your project do?',
     },
     {
-        type: 'input', //Not sure if there is a better type or method
+        type: 'input', //Not sure if there is a better type or method. Maybe a loop? Or is it automatic based on the following questions?
         name: 'tableOfContents',
         message:'',
     },
@@ -66,7 +78,7 @@ inquirer
 .then((answers) => {
     const READMEfile = generateREADME(answers);
 
-    fs.writeFile('readme', READMEfile, (err) =>
+    fs.writeFile('README.md', READMEfile, (err) =>
       err ? console.log(err) : console.log('Thank you for using README-Composer!')
     );
 });
