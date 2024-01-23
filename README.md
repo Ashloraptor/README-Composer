@@ -1,22 +1,22 @@
-# Test 5
-stuff
+# Test 6
+Test if bullets can be applied to links
 ## Table of Contents
 [Installation](##installation)
-* Usage Instruction
+* [Usage Instruction](##usage-instruction)
 * License
 * Contributing
 * Tests
 * Questions
 
 ## Installation
-Does this fix the heading?
+I have typed installation so many times it looks wrong.
 ## Usage Instruction
-blah blah blah
+Wait for it to finish please.
 ## License
 other
 ## Contributing
-me
+I contribute.
 ## Tests
-5
+6
 ## Questions
-?
+blah?
