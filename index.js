@@ -1,28 +1,29 @@
 var inquirer = require('inquirer');
 const fs = require('fs');
 
-const generateREADME = ({title, description, tableOfContents, installation, usage, license, contributing, tests, questions}) =>
+const generateREADME = ({title, description, installation, usage, license, contributing, tests, questions}) =>
 //README content with "cash-money" blanks, html style(?)
 `# ${title}
 ${description}
 ## Table of Contents
-<a href="#installation">Installation</a>
-<a href="#usage">Usage Instruction</a>
-<a href="#license">License</h2>
-<a href="#contributing">Contributing</a>
-<a href="#tests">Tests</a>
-<a href="#questions">Questions</a>
-<h2 id="installation">Installation</h2>
+[Installation](##installation)
+* Usage Instruction
+* License
+* Contributing
+* Tests
+* Questions
+
+##Installation
 ${installation}
-<h2 id="usage">Usage Instruction</h2>
+## Usage Instruction
 ${usage}
-<h2 id="license"></h2>
+## License
 ${license}
-<h2 id="contributing"></h2>
+## Contributing
 ${contributing}
-<h2 id="tests">Tests</h2>
+## Tests
 ${tests}
-<h2 id="questions">Questions</h2>
+## Questions
 ${questions}`;
 
 inquirer
