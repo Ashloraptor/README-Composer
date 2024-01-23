@@ -1,4 +1,4 @@
-const inquirer = require('./package.json');
+var inquirer = require('inquirer');
 const fs = require('fs');
 
 const generateREADME = ({title, description, tableOfContents, installation, usage, license, contributing, tests, questions}) =>
@@ -36,11 +36,6 @@ inquirer
         type: 'input',
         name: 'description',
         message:'What does your project do?',
-    },
-    {
-        type: 'input', //Not sure if there is a better type or method. Maybe a loop? Or is it automatic based on the following questions?
-        name: 'tableOfContents',
-        message:'',
     },
     {
         type: 'input',
