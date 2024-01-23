@@ -1,5 +1,5 @@
-# Test 4
-whatever
+# Test 5
+stuff
 ## Table of Contents
 [Installation](##installation)
 * Usage Instruction
@@ -8,15 +8,15 @@ whatever
 * Tests
 * Questions
 
-##Installation
-whatever
+## Installation
+Does this fix the heading?
 ## Usage Instruction
-blah
+blah blah blah
 ## License
 other
 ## Contributing
-ghufido
+me
 ## Tests
-4
+5
 ## Questions
 ?
