@@ -3,9 +3,9 @@ const fs = require('fs');
 
 const generateREADME = ({title, description, tableOfContents, installation, usage, license, contributing, tests, questions}) =>
 //README content with "cash-money" blanks, html style(?)
-`<h1>${title}</h1>
-<p>${description}</p>
-<h2>Table of Contents</h2>
+`# ${title}
+${description}
+## Table of Contents
 <a href="#installation">Installation</a>
 <a href="#usage">Usage Instruction</a>
 <a href="#license">License</h2>
@@ -13,17 +13,17 @@ const generateREADME = ({title, description, tableOfContents, installation, usag
 <a href="#tests">Tests</a>
 <a href="#questions">Questions</a>
 <h2 id="installation">Installation</h2>
-<p>${installation}</p>
+${installation}
 <h2 id="usage">Usage Instruction</h2>
-<p>${usage}</p>
+${usage}
 <h2 id="license"></h2>
-<p>${license}</p>//was this supposed to be a badge?
+${license}
 <h2 id="contributing"></h2>
-<p>${contributing}</p>
+${contributing}
 <h2 id="tests">Tests</h2>
-<p>${tests}</p>
+${tests}
 <h2 id="questions">Questions</h2>
-<p>${questions}</p>`;
+${questions}`;
 
 inquirer
 .prompt([
