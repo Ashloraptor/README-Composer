@@ -1,6 +1,23 @@
 var inquirer = require('inquirer');
 const fs = require('fs');
 const path = require('path');
+const { makeBadge, ValidationError } = require('badge-maker')
+
+//making a badge with badge-maker
+const format = {
+    label: 'build',
+    message: 'passed',
+    color: 'green',
+  }
+  
+  const svg = makeBadge(format)
+  console.log(svg) // <svg...
+  
+  try {
+    makeBadge({})
+  } catch (e) {
+    console.log(e) // ValidationError: Field `message` is required
+  }
 
 const generateREADME = ({title, description, installation, usage, license, contributing, tests, questions}) =>
 //README content

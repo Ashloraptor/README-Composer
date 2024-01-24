@@ -1,5 +1,5 @@
-# Test 7
-Stuff
+# Test 8
+Test for the functionality of the badge-maker.
 ## Table of Contents
 * [Installation](##installation)
 * [Usage Instruction](##usage-instruction)
@@ -9,14 +9,14 @@ Stuff
 * [Questions](##questions)
 
 ## Installation
-don't
+That's for me to find out.
 ## Usage Instruction
-not yet
+I'm still figuring that out.
 ## License
 other
 ## Contributing
-me and sam
+Me and badge-maker, I guess.
 ## Tests
-7
+number 8
 ## Questions
-all of them
+How do I dynamically format the badge to reflect the license....
