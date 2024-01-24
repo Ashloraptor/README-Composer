@@ -23,7 +23,7 @@ const generateREADME = ({title, description, installation, usage, license, contr
 //README content
 `# ${title}
 
-${svg}
+![GitHub License](${svg})
 
 ${description}
 ## Table of Contents
