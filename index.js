@@ -9,21 +9,16 @@ const format = {
     message: 'passed',
     color: 'green',
   }
-  
-  const svg = makeBadge(format)
-  console.log(svg) // <svg...
-  
-  try {
-    makeBadge(`${license}`)
-  } catch (e) {
-    console.log(e) // ValidationError: Field `message` is required
+  function createBadge(receiveData){
+    return`![GitHub License](https://img.shields.io/badge/license-${receiveData}-blue.svg)`
   }
+
 
 const generateREADME = ({title, description, installation, usage, license, contributing, tests, questions}) =>
 //README content
 `# ${title}
 
-![GitHub License](${svg})
+${createBadge(license)}
 
 ${description}
 ## Table of Contents
