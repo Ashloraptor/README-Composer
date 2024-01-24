@@ -14,7 +14,7 @@ const format = {
   console.log(svg) // <svg...
   
   try {
-    makeBadge({})
+    makeBadge(`${license}`)
   } catch (e) {
     console.log(e) // ValidationError: Field `message` is required
   }
@@ -22,6 +22,9 @@ const format = {
 const generateREADME = ({title, description, installation, usage, license, contributing, tests, questions}) =>
 //README content
 `# ${title}
+
+${svg}
+
 ${description}
 ## Table of Contents
 * [Installation](##installation)
