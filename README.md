@@ -1,22 +1,22 @@
-# Test 6
-Test if bullets can be applied to links
+# Test 7
+Stuff
 ## Table of Contents
-[Installation](##installation)
+* [Installation](##installation)
 * [Usage Instruction](##usage-instruction)
-* License
-* Contributing
-* Tests
-* Questions
+* [License](##license)
+* [Contributing](##contributing)
+* [Tests](##tests)
+* [Questions](##questions)
 
 ## Installation
-I have typed installation so many times it looks wrong.
+don't
 ## Usage Instruction
-Wait for it to finish please.
+not yet
 ## License
 other
 ## Contributing
-I contribute.
+me and sam
 ## Tests
-6
+7
 ## Questions
-blah?
+all of them

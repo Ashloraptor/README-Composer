@@ -1,8 +1,9 @@
 var inquirer = require('inquirer');
 const fs = require('fs');
+const path = require('path');
 
 const generateREADME = ({title, description, installation, usage, license, contributing, tests, questions}) =>
-//README content with "cash-money" blanks, html style(?)
+//README content
 `# ${title}
 ${description}
 ## Table of Contents
@@ -26,8 +27,8 @@ ${tests}
 ## Questions
 ${questions}`;
 
-inquirer
-.prompt([
+//function to get user input
+var questions= [
     {
         type: 'input',
         name: 'title',
@@ -70,11 +71,27 @@ inquirer
         name: 'questions',
         message:'',
     },
-])
-.then((answers) => {
-    const READMEfile = generateREADME(answers);
+];
+// .then((answers) => {
+//     const READMEfile = generateREADME(answers);
 
-    fs.writeFile('README.md', READMEfile, (err) =>
-      err ? console.log(err) : console.log('Thank you for using README-Composer!')
-    );
-});
+//     fs.writeToFile('README.md', READMEfile, (err) =>
+//       err ? console.log(err) : console.log('Thank you for using README-Composer!')
+//     );
+//});
+
+// Function to write README file using the user input
+function writeToFile(fileName, data) {
+    return fs.writeFileSync(path.join(process.cwd(), fileName), data);
+  }
+
+  //Function to init
+  function init() {
+    inquirer.prompt(questions).then((answers) => {
+        console.log('Generating README...');
+        writeToFile('README.md', generateREADME({ ...answers }));
+        console.log('Thank you for using README-Composer!')
+      });
+  }
+
+  init();
