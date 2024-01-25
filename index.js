@@ -14,7 +14,7 @@ const format = {
   }
 
 
-const generateREADME = ({title, description, installation, usage, license, contributing, tests, questions}) =>
+const generateREADME = ({title, description, installation, usage, license, contributing, tests, questions, questions2}) =>
 //README content
 `# ${title}
 
@@ -25,7 +25,7 @@ ${description}
 * [Installation](##installation)
 * [Usage Instruction](##usage-instruction)
 * [License](##license)
-* [Contributing](##contributing)
+* [How to Contribute](##how-to-contribute)
 * [Tests](##tests)
 * [Questions](##questions)
 
@@ -35,12 +35,12 @@ ${installation}
 ${usage}
 ## License
 ${license}
-## Contributing
+## How to Contribute
 ${contributing}
 ## Tests
 ${tests}
 ## Questions
-${questions}`;
+For questions please reach out to [${questions}](github.com/${questions}) via email ${questions2}.`;
 
 //function to get user input
 var questions= [
@@ -68,13 +68,13 @@ var questions= [
         type: 'checkbox', //I thought I knew where this was going, but that's 36 options listed in Github
         name: 'license',
         message:'What license does it use?',
-        choices: ['AFL-3.0', 'Apache-2.0', 'Artistic-2.0', 'other'],
+        choices: ['Microsoft Public License', 'MIT', 'Open Software License 3.0', 'other'],
         //https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository
     },
     {
         type: 'input',
         name: 'contributing',
-        message:'',
+        message:'How can others contribute to your project?',
     },
     {
         type: 'input',
@@ -84,7 +84,12 @@ var questions= [
     {
         type: 'input',
         name: 'questions',
-        message:'',
+        message:'Please input your GitHub username.',
+    },
+    {
+        type: 'input',
+        name: 'questions2',
+        message:'Please provide your email address.',
     },
 ];
 // .then((answers) => {
