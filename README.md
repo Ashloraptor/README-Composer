@@ -1,22 +1,22 @@
-# Test 15
+# Test 16
 
-![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)
+![GitHub License](https://img.shields.io/badge/license-Microsoft Public License-blue.svg)
 
 Normally, our console prints the text that we supply to it via console.log. However, if we send an escape character (\x1b) and a certain sequence ([33m )to the console, the console actually catches the sequence before printing it, thus allowing basic terminal configuration.
 ## Table of Contents
-* [Installation](#-installation)
-* [Usage Instruction](#-usage-instruction)
+* [Installation](#installation)
+* [Usage Instruction](#usage-instruction)
 * [License](#license)
-* [How to Contribute](#-how-to-contribute)
-* [Tests](#-tests)
-* [Questions](#-questions)
+* [How to Contribute](#how-to-contribute)
+* [Tests](#tests)
+* [Questions](#questions)
 
 ## Installation
 Normally, our console prints the text that we supply to it via console.log. However, if we send an escape character (\x1b) and a certain sequence ([33m )to the console, the console actually catches the sequence before printing it, thus allowing basic terminal configuration.
 ## Usage Instruction
 Normally, our console prints the text that we supply to it via console.log. However, if we send an escape character (\x1b) and a certain sequence ([33m )to the console, the console actually catches the sequence before printing it, thus allowing basic terminal configuration.
 ## License
-MIT
+Microsoft Public License
 ## How to Contribute
 Normally, our console prints the text that we supply to it via console.log. However, if we send an escape character (\x1b) and a certain sequence ([33m )to the console, the console actually catches the sequence before printing it, thus allowing basic terminal configuration.
 ## Tests
