@@ -1,8 +1,8 @@
-# Test 16
+# Test 17
 
-![GitHub License](https://img.shields.io/badge/license-Microsoft Public License-blue.svg)
+![GitHub License](https://img.shields.io/badge/license-OpenSoftwareLicense3.0-blue.svg)
 
-Normally, our console prints the text that we supply to it via console.log. However, if we send an escape character (\x1b) and a certain sequence ([33m )to the console, the console actually catches the sequence before printing it, thus allowing basic terminal configuration.
+Test that badge functionality was resolved and that license section is laid out favorably.
 ## Table of Contents
 * [Installation](#installation)
 * [Usage Instruction](#usage-instruction)
@@ -12,14 +12,14 @@ Normally, our console prints the text that we supply to it via console.log. Howe
 * [Questions](#questions)
 
 ## Installation
-Normally, our console prints the text that we supply to it via console.log. However, if we send an escape character (\x1b) and a certain sequence ([33m )to the console, the console actually catches the sequence before printing it, thus allowing basic terminal configuration.
+To add a workflow status badge to your README.md file, first find the URL for the status badge you would like to display. Then you can use Markdown to display the badge as an image in your README.md file.
 ## Usage Instruction
-Normally, our console prints the text that we supply to it via console.log. However, if we send an escape character (\x1b) and a certain sequence ([33m )to the console, the console actually catches the sequence before printing it, thus allowing basic terminal configuration.
+To add a workflow status badge to your README.md file, first find the URL for the status badge you would like to display. Then you can use Markdown to display the badge as an image in your README.md file.
 ## License
-Microsoft Public License
+This project is licensed under the terms of the OpenSoftwareLicense3.0 license.
 ## How to Contribute
-Normally, our console prints the text that we supply to it via console.log. However, if we send an escape character (\x1b) and a certain sequence ([33m )to the console, the console actually catches the sequence before printing it, thus allowing basic terminal configuration.
+To add a workflow status badge to your README.md file, first find the URL for the status badge you would like to display. Then you can use Markdown to display the badge as an image in your README.md file.
 ## Tests
-Normally, our console prints the text that we supply to it via console.log. However, if we send an escape character (\x1b) and a certain sequence ([33m )to the console, the console actually catches the sequence before printing it, thus allowing basic terminal configuration.
+To add a workflow status badge to your README.md file, first find the URL for the status badge you would like to display. Then you can use Markdown to display the badge as an image in your README.md file.
 ## Questions
 For questions please reach out to [ashloraptor](https://github.com/ashloraptor) via email fake@email.com.

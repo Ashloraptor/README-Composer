@@ -34,7 +34,7 @@ ${installation}
 ## Usage Instruction
 ${usage}
 ## License
-${license}
+This project is licensed under the terms of the ${license} license.
 ## How to Contribute
 ${contributing}
 ## Tests
@@ -68,7 +68,7 @@ var questions= [
         type: 'checkbox', //I thought I knew where this was going, but that's 36 options listed in Github
         name: 'license',
         message:'What license does it use?',
-        choices: ['Microsoft Public License', 'MIT', 'Open Software License 3.0', 'other'],
+        choices: ['MicrosoftPublicLicense', 'MIT', 'OpenSoftwareLicense3.0', 'Unlicense'],
         //https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository
     },
     {
