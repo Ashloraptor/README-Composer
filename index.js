@@ -22,12 +22,12 @@ ${createBadge(license)}
 
 ${description}
 ## Table of Contents
-* [Installation](##-installation)
-* [Usage Instruction](##-usage-instruction)
-* [License](##license)
-* [How to Contribute](##-how-to-contribute)
-* [Tests](##-tests)
-* [Questions](##-questions)
+* [Installation](#-installation)
+* [Usage Instruction](#-usage-instruction)
+* [License](#license)
+* [How to Contribute](#-how-to-contribute)
+* [Tests](#-tests)
+* [Questions](#-questions)
 
 ## Installation
 ${installation}
