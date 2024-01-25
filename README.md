@@ -1,8 +1,8 @@
-# Test 17
+# README Composer
 
-![GitHub License](https://img.shields.io/badge/license-OpenSoftwareLicense3.0-blue.svg)
+![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)
 
-Test that badge functionality was resolved and that license section is laid out favorably.
+This project allows the user to generate a quality README file to use for their own project.
 ## Table of Contents
 * [Installation](#installation)
 * [Usage Instruction](#usage-instruction)
@@ -12,14 +12,14 @@ Test that badge functionality was resolved and that license section is laid out 
 * [Questions](#questions)
 
 ## Installation
-To add a workflow status badge to your README.md file, first find the URL for the status badge you would like to display. Then you can use Markdown to display the badge as an image in your README.md file.
+To install README Composer, you'll want to clone the code from GitHub.
 ## Usage Instruction
-To add a workflow status badge to your README.md file, first find the URL for the status badge you would like to display. Then you can use Markdown to display the badge as an image in your README.md file.
+After cloning the code, run node on an integrated terminal and respond to the prompts.
 ## License
-This project is licensed under the terms of the OpenSoftwareLicense3.0 license.
+This project is licensed under the terms of the MIT license.
 ## How to Contribute
-To add a workflow status badge to your README.md file, first find the URL for the status badge you would like to display. Then you can use Markdown to display the badge as an image in your README.md file.
+Please follow the Contributor Covenant standard when making contributions.
 ## Tests
-To add a workflow status badge to your README.md file, first find the URL for the status badge you would like to display. Then you can use Markdown to display the badge as an image in your README.md file.
+Feel free to test it out!
 ## Questions
-For questions please reach out to [ashloraptor](https://github.com/ashloraptor) via email fake@email.com.
+For questions please reach out to [ashloraptor](https://github.com/ashloraptor) via email none@email.com.
