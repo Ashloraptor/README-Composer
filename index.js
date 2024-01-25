@@ -22,12 +22,12 @@ ${createBadge(license)}
 
 ${description}
 ## Table of Contents
-* [Installation](##installation)
-* [Usage Instruction](##usage-instruction)
+* [Installation](##-installation)
+* [Usage Instruction](##-usage-instruction)
 * [License](##license)
-* [How to Contribute](##how-to-contribute)
-* [Tests](##tests)
-* [Questions](##questions)
+* [How to Contribute](##-how-to-contribute)
+* [Tests](##-tests)
+* [Questions](##-questions)
 
 ## Installation
 ${installation}
@@ -40,7 +40,7 @@ ${contributing}
 ## Tests
 ${tests}
 ## Questions
-For questions please reach out to [${questions}](github.com/${questions}) via email ${questions2}.`;
+For questions please reach out to [${questions}](https://github.com/${questions}) via email ${questions2}.`;
 
 //function to get user input
 var questions= [
